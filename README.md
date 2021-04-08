@@ -1,5 +1,8 @@
 # git-cheatsheet
 
+### Init
+`git init` - Initialize git in the current folder
+
 ### Add
 `git add <file-name-1> <file-name-2>...<file-name-N>` (separated by whitespace) - Add files to the staging area
 
