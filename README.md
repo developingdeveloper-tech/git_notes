@@ -41,3 +41,11 @@
 
 ### Merge
 `git merge <branch-name>` - merges the listed branch into the current branch. NOTE: If a merge conflicts arises, edit the file and keep the changes you want, add it staging area and make a commit like any regular commit.
+
+### Pull
+`git pull <remote>` - updates the branch that tracks the remote branch and merge the incoming changes
+
+### Fetch
+`git fetch <remote>` - updates the branch that tracks the remote branch but it will not merge the incoming changes to the local branch. It can be seen as **safe**  git pull.
+
+`git fetch --all` or `git pull --all` - updates all the branches that track the remote branches but it will not merge the incoming changes to the local branch.
