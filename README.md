@@ -1,4 +1,4 @@
-# Git NOtes
+# GIT Notes
 
 ### Init
 `git init` - Initialize git in the current folder
